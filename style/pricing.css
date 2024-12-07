@@ -1,0 +1,43 @@
+
+section.Pricing {
+    max-width: 800px; /* Максимальна ширина секції */
+    margin: 0 auto;   /* Центрування секції на сторінці */
+    padding: 20px;
+}
+
+h3,h2, p {
+    display: inline-block;  /* Змусимо текст бути в одному ряді з таблицею */
+    margin: 5px 0;  /* Зменшено відступи між заголовками та абзацами */
+    width: 100%;  /* Розтягнення на всю ширину секції */
+    text-align: left; /* Вирівнювання тексту вліво */
+}
+
+p {
+    margin-bottom: 0px;  /* Відступ після абзаців */
+}
+
+table {
+    margin: 20px auto; /* Центрування таблиці */
+    border-collapse: collapse;
+    width: 100%; /* Таблиця займає всю ширину доступного простору */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left; /* Текст у таблиці по центру */
+    border: 1px solid #ccc;
+}
+
+.art {
+color: #3b6494;
+}
+
+.h3 {
+color: #4f80bd;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.enter {
+    margin-bottom: 10px;
+}
